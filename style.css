@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+
+}
+section img{
+    width: 300px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-left: 10px;
+}
+article img{
+    width: 150px;
+}
