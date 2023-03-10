@@ -41,6 +41,6 @@ function init(){
 function kiskepKattintas(index, kepList){
     console.log(event.target)
     const NAGYKEP=document.querySelectorAll("section div img")
-    console.log(NAGYKEP)
-    NAGYKEP[0].src=kepList[index]
+    console.log(`kepek/${kepList[index]}`)
+    NAGYKEP[0].src=`kepek/${kepList[index]}`;
 }
